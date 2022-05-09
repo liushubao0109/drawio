@@ -1,29 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T09:42:15.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Ed7vwtiWeKekgZoaoc1g" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-09T09:46:56.776Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="0oO05ArmKJW6MBjE2dGp" version="18.0.2" type="github" pages="2">
   <diagram name="设备管理E-R图" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1529" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="22" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;org_info(组织表)&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;org_id&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;tenant_id：所属租户&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;org_name：组织名称&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;level：组织层级&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;parent_id：上级组织&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;org_type：组织类型(实体组织、虚拟组织)&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="380" y="500" width="260" height="180" as="geometry" />
+          <mxGeometry x="380" y="510" width="260" height="180" as="geometry" />
         </mxCell>
         <mxCell id="26" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;device_group_info(设备分组表)&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;group_id&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;group_name&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;level&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;parent_id&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;org_id&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="1239" y="110" width="220" height="130" as="geometry" />
+          <mxGeometry x="1470" y="440" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="29" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;camera_info(摄像机信息表)&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;camera_id&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;device_type: 设备类型&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;device_model: 设备型号&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;vc_device_id: 视频云设备Id&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;vc_valide_code: 视频云设备验证吗码&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;ai_platform_device_id：AI平台设备Id&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;org_id: 所属组织&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;group_id：所属分组&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;account_id: 子账号Id&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="700" y="140" width="250" height="200" as="geometry" />
+          <mxGeometry x="700" y="280" width="250" height="200" as="geometry" />
         </mxCell>
         <mxCell id="32" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;sub_account_info(视频云账号表)&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;account_id: 账号Id&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;org_id: 所属组织&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;develop_account_id: 开发者账号&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;app_id: 接口Appid&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;app_secret： 接口调用secret&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="1070" y="340" width="250" height="140" as="geometry" />
+          <mxGeometry x="1060" y="360" width="250" height="140" as="geometry" />
         </mxCell>
         <mxCell id="33" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;tenant_info(租户表)&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tenant_id&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;tenate_name&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="210" y="770" width="130" height="90" as="geometry" />
+          <mxGeometry x="90" y="650" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="prPZOIEQMUcu1DBUgnGb-114" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;user_info(用户表)&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;user_id：&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;tenant_id&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;org_id&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="60" y="440" width="130" height="140" as="geometry" />
+          <mxGeometry x="90" y="420" width="130" height="140" as="geometry" />
         </mxCell>
         <mxCell id="prPZOIEQMUcu1DBUgnGb-116" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;video_cloud_develop_account_info(视频云开发在账号表)&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;account_id&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;app_id:&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;app_secret&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;tenent_id&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="1430" y="340" width="360" height="140" as="geometry" />
+          <mxGeometry x="940" y="90" width="360" height="140" as="geometry" />
         </mxCell>
         <mxCell id="prPZOIEQMUcu1DBUgnGb-117" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;1、应用上配置AI任务：&lt;/b&gt;&lt;br&gt;&lt;/font&gt;（1）通过用户所在在组织能得到组织下面所拥有的摄像机列表&lt;br&gt;（2）通过摄像机表中的开发者账号和视频云平台进行交互&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;2、看直播视频&lt;br&gt;&lt;/b&gt;&lt;/font&gt;（1）根据用户的角色确认用户是否有看视频直播的权限&lt;br&gt;（2）通过用户所在的组织获取用户访问摄像机列表&lt;br&gt;（3）播放视频时使用用户关联的视频云端子账号获取直播流（如果有）&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;3、添加设备：&lt;/font&gt;&lt;/b&gt;&lt;br&gt;（1）通过用户所在的组织和子账号（如果有）获取用户所能访问摄像机列表&lt;br&gt;（2）只能添加用户能获取到的摄像机列表中的设备" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="10" width="540" height="190" as="geometry" />
@@ -37,13 +37,13 @@
             <mxPoint x="820" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8GgAKwCprTFVre6KFfDV-70" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;fontColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.012;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="prPZOIEQMUcu1DBUgnGb-116" target="32" edge="1">
+        <mxCell id="8GgAKwCprTFVre6KFfDV-70" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;fontColor=#000000;" parent="1" source="prPZOIEQMUcu1DBUgnGb-116" target="32" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="720" y="730" as="sourcePoint" />
             <mxPoint x="820" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8GgAKwCprTFVre6KFfDV-71" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;fontColor=#000000;entryX=-0.009;entryY=0.893;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="33" target="22" edge="1">
+        <mxCell id="8GgAKwCprTFVre6KFfDV-71" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;fontColor=#000000;entryX=-0.004;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="33" target="22" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="780" y="1010" as="sourcePoint" />
             <mxPoint x="958.1999999999998" y="907.98" as="targetPoint" />
@@ -67,16 +67,16 @@
             <mxPoint x="680" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JkNPogsCPKpLKmXFPZ8Q-35" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;fontColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="33" target="prPZOIEQMUcu1DBUgnGb-114" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="240" y="770" as="sourcePoint" />
-            <mxPoint x="350" y="630" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="JkNPogsCPKpLKmXFPZ8Q-36" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;fontColor=#000000;exitX=0;exitY=0.357;exitDx=0;exitDy=0;entryX=1;entryY=0.589;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="32" target="29" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="1090" y="510" as="sourcePoint" />
             <mxPoint x="1160" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lnT_JMwce5iqp3XoTKiW-33" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="33" target="prPZOIEQMUcu1DBUgnGb-114">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-20" y="610" as="sourcePoint" />
+            <mxPoint x="80" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
