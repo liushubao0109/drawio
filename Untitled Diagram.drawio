@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T04:52:46.416Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="v8wkyOePl8dWc_XayNi9" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-09T04:56:49.002Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="_f-qVEeZSvJMSmW4dq41" version="18.0.2" type="github" pages="2">
   <diagram name="设备管理E-R图" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="2380" dy="1493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -192,7 +192,7 @@
         <mxCell id="zUv9AzyiuYPNvfsvIyoC-4" value="从缓存中获取accessToken和直播地址" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="510" y="500" width="280" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zUv9AzyiuYPNvfsvIyoC-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-17" target="zUv9AzyiuYPNvfsvIyoC-10">
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-17" target="zUv9AzyiuYPNvfsvIyoC-22">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="650" as="sourcePoint" />
           </mxGeometry>
@@ -206,23 +206,25 @@
         <mxCell id="zUv9AzyiuYPNvfsvIyoC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-10" target="zUv9AzyiuYPNvfsvIyoC-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zUv9AzyiuYPNvfsvIyoC-10" value="过滤出还未添加的摄像机列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="525" y="720" width="250" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zUv9AzyiuYPNvfsvIyoC-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-12" target="zUv9AzyiuYPNvfsvIyoC-14">
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-10" target="zUv9AzyiuYPNvfsvIyoC-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zUv9AzyiuYPNvfsvIyoC-12" value="修改设备信息，添加validecode" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="525" y="820" width="250" height="50" as="geometry" />
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-10" value="抓拍图片" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="525" y="890" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zUv9AzyiuYPNvfsvIyoC-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-14" target="zUv9AzyiuYPNvfsvIyoC-15">
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-12" value="调用Nebula接口解析图片" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="525" y="990" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-12" target="zUv9AzyiuYPNvfsvIyoC-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="1130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-15" value="分析结构化数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1250" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-16" target="zUv9AzyiuYPNvfsvIyoC-20">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zUv9AzyiuYPNvfsvIyoC-14" value="调用Nebula接口添加设备" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="525" y="910" width="250" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zUv9AzyiuYPNvfsvIyoC-15" value="完成一个设备添加" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="525" y="1000" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zUv9AzyiuYPNvfsvIyoC-16" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;获取摄像机的开发者账号及接口访问appid和appSecret&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="810" y="605" width="250" height="50" as="geometry" />
@@ -235,6 +237,36 @@
         </mxCell>
         <mxCell id="zUv9AzyiuYPNvfsvIyoC-20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;更新accessToken&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1110" y="605" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-22" value="基于图片分析？" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="544" y="730" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="zUv9AzyiuYPNvfsvIyoC-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="790" as="sourcePoint" />
+            <mxPoint x="660" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-26" target="zUv9AzyiuYPNvfsvIyoC-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-26" value="拉取直播流推送视频流" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="860" y="890" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-28" target="zUv9AzyiuYPNvfsvIyoC-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-28" value="启动任务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1000" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-29" value="订阅分析结果" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1090" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.621;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-29" target="zUv9AzyiuYPNvfsvIyoC-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="1050" as="sourcePoint" />
+            <mxPoint x="805" y="1260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
