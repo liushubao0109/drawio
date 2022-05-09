@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T04:45:16.146Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="lgszk7JXi0DnLQTwIhmo" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-09T04:52:46.416Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="v8wkyOePl8dWc_XayNi9" version="18.0.2" type="github" pages="2">
   <diagram name="设备管理E-R图" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
-    <mxGraphModel dx="1428" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2380" dy="1493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="1340" y="220" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="29" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;camera_info(摄像机信息表)&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;camera_id&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;device_type: 设备类型&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;device_model: 设备型号&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;vc_device_id: 视频云设备Id&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;vc_valide_code: 视频云设备验证吗码&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;ai_platform_device_id：AI平台设备Id&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;org_id: 所属组织&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;group_id：所属分组&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;account_id: 子账号Id&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="780" y="260" width="250" height="200" as="geometry" />
+          <mxGeometry x="790" y="250" width="250" height="200" as="geometry" />
         </mxCell>
         <mxCell id="32" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;sub_account_info(视频云账号表)&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;account_id: 账号Id&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;org_id: 所属组织&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;develop_account_id: 开发者账号&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;app_id: 接口Appid&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;app_secret： 接口调用secret&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
           <mxGeometry x="1130" y="530" width="250" height="140" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry x="1490" y="510" width="360" height="140" as="geometry" />
         </mxCell>
         <mxCell id="prPZOIEQMUcu1DBUgnGb-117" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;1、应用上配置AI任务：&lt;/b&gt;&lt;br&gt;&lt;/font&gt;（1）通过用户所在在组织能得到组织下面所拥有的摄像机列表&lt;br&gt;（2）通过摄像机表中的开发者账号和视频云平台进行交互&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;2、看直播视频&lt;br&gt;&lt;/b&gt;&lt;/font&gt;（1）根据用户的角色确认用户是否有看视频直播的权限&lt;br&gt;（2）通过用户所在的组织获取用户访问摄像机列表&lt;br&gt;（3）播放视频时使用用户关联的视频云端子账号获取直播流（如果有）&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;3、添加设备：&lt;/font&gt;&lt;/b&gt;&lt;br&gt;（1）通过用户所在的组织和子账号（如果有）获取用户所能访问摄像机列表&lt;br&gt;（2）只能添加用户能获取到的摄像机列表中的设备" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="40" width="540" height="190" as="geometry" />
+          <mxGeometry x="50" y="10" width="540" height="190" as="geometry" />
         </mxCell>
         <mxCell id="prPZOIEQMUcu1DBUgnGb-118" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;video_cloud_camera_info(视频云摄像机信息表)&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;platform_provider: 平台供应商&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;device_id: 视频云设备Id&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;device_name: 设备名&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;device_model: 设备型号&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;device_type：设备类型&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;device_status：设备状态&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;channel_no：设备通道号&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;vc_develop_account_id: 视频云开发者账号&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;vc_user_account_id：视频云设备户主账号&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
           <mxGeometry x="300" y="230" width="310" height="180" as="geometry" />
@@ -134,10 +134,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8P6WtkY7GEdGRMr7S4ZO-15" value="执行添加设备操作" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="170" y="420" width="120" height="50" as="geometry" />
+          <mxGeometry x="90" y="420" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8P6WtkY7GEdGRMr7S4ZO-16" value="&lt;font color=&quot;#000000&quot;&gt;店长或管理员&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;fontColor=#7EA6E0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="310" width="30" height="60" as="geometry" />
+          <mxGeometry x="30" y="280" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y3j7ugrH2uAdMdnh6kX6-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="8P6WtkY7GEdGRMr7S4ZO-17" target="P5ymRtto2EQK2mSx_d3y-1">
           <mxGeometry relative="1" as="geometry" />
@@ -177,6 +177,64 @@
         </mxCell>
         <mxCell id="Y3j7ugrH2uAdMdnh6kX6-11" value="完成一个设备添加" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="105" y="1020" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-2" target="zUv9AzyiuYPNvfsvIyoC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-2" value="获取任务下的摄像机列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="510" y="400" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-4" target="zUv9AzyiuYPNvfsvIyoC-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-4" value="从缓存中获取accessToken和直播地址" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="510" y="500" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-17" target="zUv9AzyiuYPNvfsvIyoC-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-8" target="zUv9AzyiuYPNvfsvIyoC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-8" value="启动AI任务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="590" y="300" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-10" target="zUv9AzyiuYPNvfsvIyoC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-10" value="过滤出还未添加的摄像机列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="525" y="720" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-12" target="zUv9AzyiuYPNvfsvIyoC-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-12" value="修改设备信息，添加validecode" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="525" y="820" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-14" target="zUv9AzyiuYPNvfsvIyoC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-14" value="调用Nebula接口添加设备" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="525" y="910" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-15" value="完成一个设备添加" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="525" y="1000" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-16" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;获取摄像机的开发者账号及接口访问appid和appSecret&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="810" y="605" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="zUv9AzyiuYPNvfsvIyoC-17" target="zUv9AzyiuYPNvfsvIyoC-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-17" value="accessToken和视频流地址是否超时" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="545" y="600" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zUv9AzyiuYPNvfsvIyoC-20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;更新accessToken&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="605" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
