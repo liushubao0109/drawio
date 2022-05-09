@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T04:11:27.759Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="ErIBULkIdVNR5b3olL0K" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-09T04:18:51.418Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="8LvLZ4n30B3ujyoqRUdp" version="18.0.2" type="github" pages="2">
   <diagram name="设备管理E-R图" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1428" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry x="790" y="810" width="250" height="140" as="geometry" />
         </mxCell>
         <mxCell id="33" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;tenant_info(租户表)&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tenant_id&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;tenate_name&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
-          <mxGeometry x="440" y="889.9999999999995" width="160" height="90" as="geometry" />
+          <mxGeometry x="480" y="889.9999999999995" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="prPZOIEQMUcu1DBUgnGb-114" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;user_info(用户表)&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;user_id&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;tenant_id&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;org_id&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
           <mxGeometry x="100" y="570" width="250" height="140" as="geometry" />
@@ -115,20 +115,53 @@
         <mxCell id="8P6WtkY7GEdGRMr7S4ZO-14" value="设备信息同步流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=14;fontColor=#7EA6E0;" vertex="1" parent="1">
           <mxGeometry x="280" y="20" width="180" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Y3j7ugrH2uAdMdnh6kX6-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="8P6WtkY7GEdGRMr7S4ZO-15" target="8P6WtkY7GEdGRMr7S4ZO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8P6WtkY7GEdGRMr7S4ZO-15" value="执行添加设备操作" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="330" y="320" width="120" height="50" as="geometry" />
+          <mxGeometry x="170" y="420" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8P6WtkY7GEdGRMr7S4ZO-16" value="&lt;font color=&quot;#000000&quot;&gt;店长或管理员&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;fontColor=#7EA6E0;" vertex="1" parent="1">
           <mxGeometry x="60" y="310" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8P6WtkY7GEdGRMr7S4ZO-17" value="根据用户所在组织(分店)获取获取子账号列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="500" y="320" width="280" height="50" as="geometry" />
+        <mxCell id="Y3j7ugrH2uAdMdnh6kX6-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="8P6WtkY7GEdGRMr7S4ZO-17" target="P5ymRtto2EQK2mSx_d3y-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5ymRtto2EQK2mSx_d3y-1" value="获取子账号下的所有设备列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="840" y="320" width="250" height="50" as="geometry" />
+        <mxCell id="8P6WtkY7GEdGRMr7S4ZO-17" value="根据用户所在组织(分店)获取获取子账号列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="90" y="534.5" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3j7ugrH2uAdMdnh6kX6-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="P5ymRtto2EQK2mSx_d3y-1" target="KdT8zTc7T3fG-2CvEBio-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5ymRtto2EQK2mSx_d3y-1" value="获取子账号下的所有设备列表（从同步表中获取）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="105" y="640" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3j7ugrH2uAdMdnh6kX6-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="P5ymRtto2EQK2mSx_d3y-2" target="8P6WtkY7GEdGRMr7S4ZO-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P5ymRtto2EQK2mSx_d3y-2" value="进入(选择)分店" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="170" y="320" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3j7ugrH2uAdMdnh6kX6-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="KdT8zTc7T3fG-2CvEBio-1" target="Y3j7ugrH2uAdMdnh6kX6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KdT8zTc7T3fG-2CvEBio-1" value="过滤出还未添加的摄像机列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="105" y="740" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3j7ugrH2uAdMdnh6kX6-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="Y3j7ugrH2uAdMdnh6kX6-1" target="Y3j7ugrH2uAdMdnh6kX6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3j7ugrH2uAdMdnh6kX6-1" value="修改设备信息，添加validecode" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="105" y="840" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3j7ugrH2uAdMdnh6kX6-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="Y3j7ugrH2uAdMdnh6kX6-8" target="Y3j7ugrH2uAdMdnh6kX6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3j7ugrH2uAdMdnh6kX6-8" value="调用Nebula接口添加设备" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="105" y="930" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3j7ugrH2uAdMdnh6kX6-11" value="完成一个设备添加" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1020" width="250" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
