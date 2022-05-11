@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T15:48:04.491Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="woqQX6slUdWup7qYcC3Z" version="18.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-11T15:48:22.796Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="WF53siDjNGUVyiBGxqyA" version="18.0.2" type="github" pages="6">
   <diagram name="设备管理E-R图" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1428" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -532,7 +532,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fHmzVRuzYUkT_qIklqY0-1" value="抓拍分析处理" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="14" y="56" width="810" height="834" as="geometry" />
+          <mxGeometry x="14" y="56" width="800" height="834" as="geometry" />
         </mxCell>
         <mxCell id="fHmzVRuzYUkT_qIklqY0-2" value="视频云" style="swimlane;html=1;startSize=20;" vertex="1" parent="fHmzVRuzYUkT_qIklqY0-1">
           <mxGeometry y="20" width="160" height="814" as="geometry" />
@@ -618,7 +618,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fHmzVRuzYUkT_qIklqY0-13" value="任务管理服务" style="swimlane;html=1;startSize=20;" vertex="1" parent="fHmzVRuzYUkT_qIklqY0-1">
-          <mxGeometry x="370" y="20" width="260" height="814" as="geometry" />
+          <mxGeometry x="370" y="20" width="250" height="814" as="geometry" />
         </mxCell>
         <mxCell id="fHmzVRuzYUkT_qIklqY0-14" value="触发指定设备分析任务" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="fHmzVRuzYUkT_qIklqY0-13">
           <mxGeometry x="40" y="60" width="100" height="40" as="geometry" />
@@ -659,7 +659,7 @@
           <mxGeometry x="16" y="524" width="120" height="36" as="geometry" />
         </mxCell>
         <mxCell id="fHmzVRuzYUkT_qIklqY0-26" value="Nebula" style="swimlane;html=1;startSize=20;" vertex="1" parent="fHmzVRuzYUkT_qIklqY0-1">
-          <mxGeometry x="630" y="20" width="180" height="814" as="geometry" />
+          <mxGeometry x="620" y="20" width="180" height="814" as="geometry" />
         </mxCell>
         <mxCell id="fHmzVRuzYUkT_qIklqY0-29" value="人体结构化解析接口" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="fHmzVRuzYUkT_qIklqY0-26">
           <mxGeometry x="30" y="374" width="120" height="40" as="geometry" />
