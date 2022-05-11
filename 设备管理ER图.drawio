@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T13:19:01.900Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="pDEht0-8XSmfR1IqOu6n" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-11T13:19:59.319Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="DH3JWQJFO6zmTgb8ijXM" version="18.0.2" type="github" pages="2">
   <diagram name="设备管理E-R图" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1428" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -92,7 +92,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6DEA_Z37Xa1LU0Lx2vj2" name="设备操作流程">
-    <mxGraphModel dx="1529" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1428" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,7 +151,7 @@
         <mxCell id="Y3j7ugrH2uAdMdnh6kX6-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" parent="1" source="8P6WtkY7GEdGRMr7S4ZO-17" target="P5ymRtto2EQK2mSx_d3y-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8P6WtkY7GEdGRMr7S4ZO-17" value="根据用户所在组织(分店)获取获取子账号列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="8P6WtkY7GEdGRMr7S4ZO-17" value="根据用户所在门店获取获取子账号列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="90" y="534.5" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Y3j7ugrH2uAdMdnh6kX6-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" parent="1" source="P5ymRtto2EQK2mSx_d3y-1" target="KdT8zTc7T3fG-2CvEBio-1" edge="1">
