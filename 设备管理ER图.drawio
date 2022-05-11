@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T15:22:14.713Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Mb1WNZklcnnxz4LDPK8Q" version="18.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-11T15:23:53.287Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Dv-bXmAUXWtwigSlbrJA" version="18.0.2" type="github" pages="6">
   <diagram name="设备管理E-R图" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1428" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -819,7 +819,7 @@
           <mxGeometry x="380" y="20" width="110" height="744" as="geometry" />
         </mxCell>
         <mxCell id="-LnWDCPz_Ko7V9wjN6Jq-46" value="队列" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="-LnWDCPz_Ko7V9wjN6Jq-30">
-          <mxGeometry x="40" y="234" width="30" height="230" as="geometry" />
+          <mxGeometry x="40" y="347" width="30" height="230" as="geometry" />
         </mxCell>
         <mxCell id="-LnWDCPz_Ko7V9wjN6Jq-33" value="任务管理" style="swimlane;html=1;startSize=20;" vertex="1" parent="-LnWDCPz_Ko7V9wjN6Jq-1">
           <mxGeometry x="490" y="20" width="180" height="744" as="geometry" />
@@ -841,6 +841,17 @@
         </mxCell>
         <mxCell id="-LnWDCPz_Ko7V9wjN6Jq-45" value="人体结构化解析接口" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="-LnWDCPz_Ko7V9wjN6Jq-44">
           <mxGeometry x="30" y="374" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-LnWDCPz_Ko7V9wjN6Jq-48" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-LnWDCPz_Ko7V9wjN6Jq-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="500" as="sourcePoint" />
+            <mxPoint x="430" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-LnWDCPz_Ko7V9wjN6Jq-49" value="任务信息，&lt;br&gt;图片base64，&lt;br&gt;抓拍任务结束标准" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-LnWDCPz_Ko7V9wjN6Jq-48">
+          <mxGeometry x="-0.3697" relative="1" as="geometry">
+            <mxPoint x="19" y="-30" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
