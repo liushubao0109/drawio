@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T15:48:22.796Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="WF53siDjNGUVyiBGxqyA" version="18.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-11T15:48:36.515Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="lZluLk9OCGUa179XvFEh" version="18.0.2" type="github" pages="6">
   <diagram name="设备管理E-R图" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1428" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -648,7 +648,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iRn20m7WWjoMM36yX9Bv-3" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="fHmzVRuzYUkT_qIklqY0-13">
-          <mxGeometry x="186" y="587.5" width="49" height="49" as="geometry" />
+          <mxGeometry x="176" y="587.5" width="49" height="49" as="geometry" />
         </mxCell>
         <mxCell id="fHmzVRuzYUkT_qIklqY0-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="fHmzVRuzYUkT_qIklqY0-13" source="fHmzVRuzYUkT_qIklqY0-47" target="iRn20m7WWjoMM36yX9Bv-3">
           <mxGeometry relative="1" as="geometry">
